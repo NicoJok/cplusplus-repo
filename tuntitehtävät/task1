@@ -1,1 +1,12 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+    string nimi;
+
+    std::cout << "Anna nimesi: ";
+    std::cin >> nimi;
+
+    std::cout << "Hei, " << nimi << "!";
+    return 0;
+}
