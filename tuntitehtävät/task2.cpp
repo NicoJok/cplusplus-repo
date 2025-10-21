@@ -1,9 +1,14 @@
 #include <iostream>
-int main()
-{
-    float sade, pinta_ala;
-    std::cout << "Anna ympyrän säde: ";
-    std::cin >> sade;
-    pinta_ala = 3.14 * sade * sade;
-    std::cout << "Pinta-ala on: " << pinta_ala;
+using namespace std;
+
+int main() {
+    float korkeus, kanta;
+    cout << "Korkeus: ";
+    cin >> korkeus;
+    cout << "Kanta: ";
+    cin >> kanta;
+    double ala = (kanta * korkeus) / 2;
+    double piiri = (korkeus + kanta) * 2;
+    cout << "Suorakulmion pinta-ala on: " << ala << " ja piiri on " << piiri << endl;
+    return 0;
 }
