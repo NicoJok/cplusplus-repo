@@ -22,7 +22,7 @@ public:
 int main() {
     Car car;
     car.set_brand("BMW");
-    car.set_year(2020);
+    car.set_year(2025);
     car.info();
 
     return 0;
